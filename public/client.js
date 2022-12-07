@@ -21,7 +21,7 @@ var streamConstraints = { audio: true, video: true };
 var isCaller;
 
 // Let's do this
-var socket = io();
+var socket = io("https://vercel-eta-drab.vercel.app/");
 
 btnGoRoom.onclick = function () {
     if (inputRoomNumber.value === '') {
