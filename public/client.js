@@ -20,8 +20,8 @@ var iceServers = {
 var streamConstraints = { audio: true, video: true };
 var isCaller;
 
-// Let's do this
-var socket = io("https://vercel-eta-drab.vercel.app/");
+// Let's do this: https://vercel-eta-drab.vercel.app/
+var socket = io();
 
 btnGoRoom.onclick = function () {
     if (inputRoomNumber.value === '') {
